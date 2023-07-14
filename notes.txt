@@ -20,3 +20,11 @@ muurtuin body green #95D60A
 ## Each area can have a name, a link ...
 
 http://www.image-map.net/
+
+
+## 14/07/2023
+## Applicatie draait op Render.com onder de volgende link: https://rekenenmetgroen.onrender.com/
+## De code geupload naar github op account, bertdebackerkoninkx@gmail.com
+## De git repository noemt Groen-master
+## Er is een file toegevoegd .node-version die de node vesion van de originele development omgeving bevat 16.15.1
+## In render.com moet je het applicatie type 'STATIC SITE' kiezen

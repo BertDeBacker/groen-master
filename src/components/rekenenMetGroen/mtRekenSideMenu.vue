@@ -61,7 +61,7 @@
         </v-card-text>
       </v-card>
 
-      <v-card v-if="calculationsCompleted" class="mt-2 pa-0">
+      <--v-card v-if="calculationsCompleted" class="mt-2 pa-0">
         <v-card-title class="cartTussenResultaat">
           &nbsp; Ter controle
         </v-card-title>
@@ -95,7 +95,7 @@
             <router-link to="/groen/kengetallen">Kengetallen</router-link>
           </li>
         </v-card-text>
-      </v-card>
+      <--/v-card>
     </ul>
   </v-card>
 </template>
