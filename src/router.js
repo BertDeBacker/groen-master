@@ -100,7 +100,7 @@ export default new Router({
           component: () =>
             import('@/components/tussenResultaatGroenDak/mtVoorKlant.vue')
         },
-        ,
+        
         {
           path: 'tssresultgroendakvoorgemeenschap',
           name: 'tssresultgroendakvoorgemeenschap',
@@ -113,7 +113,7 @@ export default new Router({
           component: () =>
             import('@/components/tussenResultaatGroeneGevel/mtVoorKlant.vue')
         },
-        ,
+        
         {
           path: 'tssresultgroenegevelvoorgemeenschap',
           name: 'tssresultgroenegevelvoorgemeenschap',
