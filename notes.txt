@@ -1,0 +1,22 @@
+Notes: Learnings from this project.
+
+## Website that can load another Website
+## You can than select colors from that page and it will show you 
+## HTML code, RGB code and HSV code.
+
+https://imagecolorpicker.com/en
+
+
+
+//mt = muurtuin
+muurtuin header blue #69abe5
+muurtuin body green #95D60A
+
+
+
+## Generate image maps on this site
+## Upload your image
+## Select and name Area's
+## Each area can have a name, a link ...
+
+http://www.image-map.net/

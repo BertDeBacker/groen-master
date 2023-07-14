@@ -1,0 +1,451 @@
+{
+  "kengetallengroendak": {
+    "energieBesparing": {
+      "verwarming": {
+        "onderwerp": "Besparing verwarming(%/jaar)",
+        "isolatiegraad": {
+          "goed": {
+            "minimum": "8",
+            "maximum": "8.5",
+            "gemiddeld": "9"
+          },
+          "matig": {
+            "minimum": "13",
+            "maximum": "13",
+            "gemiddeld": "13"
+          },
+          "geen": {
+            "minimum": "45",
+            "maximum": "45.5",
+            "gemiddeld": "46"
+          }
+        }
+      },
+      "cooling": {
+        "onderwerp": "Besparing cooling(%/jaar)",
+        "isolatiegraad": {
+          "goed": {
+            "minimum": "0",
+            "maximum": "0",
+            "gemiddeld": "0"
+          },
+          "matig": {
+            "minimum": "0",
+            "maximum": "11.9",
+            "gemiddeld": "30"
+          },
+          "geen": {
+            "minimum": "22",
+            "maximum": "33.5",
+            "gemiddeld": "45"
+          }
+        }
+      }
+    },
+    "effectOpZonnepaneel": {
+      "onderwerp": "Toename efficiëntie zonnepaneelproductie(%)",
+      "minimum": "2",
+      "maximum": "7",
+      "gemiddeld": "12"
+    },
+    "effectOrientatieZonnepaneel": {
+      "onderwerp": "Effect oriëntatie zonnepaneel op efficiëntie (%)",
+
+      "Noord": {
+        "windrichting": "N",
+        "minimum": "67",
+        "maximum": "67",
+        "gemiddeld": "67"
+      },
+      "Oost": {
+        "windrichting": "O",
+        "minimum": "87",
+        "maximum": "87",
+        "gemiddeld": "87"
+      },
+      "Zuid": {
+        "windrichting": "Z",
+        "minimum": "100",
+        "maximum": "100",
+        "gemiddeld": "100"
+      },
+      "West": {
+        "windrichting": "W",
+        "minimum": "86",
+        "maximum": "86",
+        "gemiddeld": "86"
+      }
+    },
+    "akoestischeIsolatie": {
+      "onderwerp": "Akoestische Isolatie",
+      "lichtDak": {
+        "Licht dak + geen groen": {
+          "soort": "Licht dak + geen groen",
+          "akoestischeIsolatie": "30",
+          "demping": "0"
+        },
+        "Licht dak + extensief groendak": {
+          "soort": "Licht dak + extensief groendak",
+          "akoestischeIsolatie": "35",
+          "demping": "5"
+        }
+      },
+      "zwaarDak": {
+        "Zwaar dak + geen groen": {
+          "soort": "Zwaar dak + geen groen",
+          "akoestischeIsolatie": "50",
+          "demping": "0"
+        },
+        "Zwaar dak + intensief groendak": {
+          "soort": "Zwaar dak + intensief groendak",
+          "akoestischeIsolatie": "60",
+          "demping": "10"
+        }
+      },
+      "intensiefGroenDak": {
+        "lageFrequentie": "5",
+        "middelFrequentie": "13",
+        "hogeFrequentie": "2-8"
+      }
+    },
+    "gewicht": {
+      "onderwerp": "Gewicht groen dak (kg/m²)",
+      "Extensief": {
+        "type": "Extensief",
+        "droog": "20",
+        "nat": "65"
+      },
+      "Intensief": {
+        "type": "Intensief",
+        "droog": "100",
+        "nat": "150"
+      }
+    },
+    "waterhuishouding": {
+      "onderwerp": "Waterhuishouding (l/m²) per dikte (cm)",
+      "Extensief": {
+        "6": {
+          "dikte": "6",
+          "WHC": "27",
+          "WHCcm": "4.5"
+        },
+        "8": {
+          "dikte": "8",
+          "WHC": "45",
+          "WHCcm": "5.625"
+        },
+        "10": {
+          "dikte": "10",
+          "WHC": "25",
+          "WHCcm": "2.5"
+        },
+        "12": {
+          "dikte": "12",
+          "WHC": "35",
+          "WHCcm": "2.916"
+        }
+      }
+    },
+    "waardeVermeerdering": {
+      "onderwerp": "Waardevermeerdering woning bij groen",
+      "minimum": "6",
+      "maximum": "7",
+      "gemiddeld": "8"
+    },
+    "verschilPiekTemperatuur": {
+      "onderwerp": "Verschil piek temperatuur (°C)",
+
+      "Extensief": {
+        "soort": "Extensief",
+
+        "minimum": "0.5",
+        "maximum": "0.8",
+        "gemiddeld": "1.4"
+      },
+      "Intensief": {
+        "soort": "Intensief",
+
+        "minimum": 1,
+        "maximum": "2.966",
+        "gemiddeld": "4.4"
+      }
+    },
+    "willingnessToPay": {
+      "onderwerp": "Willingness to pay (€/dB daling per huishouden per jaar)",
+
+      "minimum": "2",
+      "maximum": "5",
+      "gemiddeld": "9"
+    },
+    "kostprijs": {
+      "onderwerp": "Kostprijs groendaken (EU !)",
+
+      "Extensief": {
+        "soort": "Extensief",
+        "waardes": {
+          "minimum": "13.43",
+          "maximum": "59.16",
+          "gemiddeld": "113.99"
+        }
+      },
+      "Intensief": {
+        "soort": "Intensief",
+
+        "minimum": "39.89",
+        "maximum": "136.17",
+        "gemiddeld": "200"
+      }
+    },
+    "levensduur": {
+      "onderwerp": "Levensduur groendak (jaar)",
+
+      "Extensief": {
+        "soort": "Extensief",
+        "waardes": {
+          "minimum": "60",
+          "maximum": "60",
+          "gemiddeld": "60"
+        }
+      },
+      "Intensief": {
+        "soort": "Intensief",
+        "waardes": {
+          "minimum": "60",
+          "maximum": "60",
+          "gemiddeld": "60"
+        }
+      }
+    },
+    "onderhoudskost": {
+      "onderwerp": "Jaarlijkse OnderhoudsKost '€/m²",
+
+      "Extensief": {
+        "soort": "Extensief",
+        "waardes": {
+          "minimum": "0.0895",
+          "maximum": "1.15",
+          "gemiddeld": "0.5503"
+        }
+      },
+      "Intensief": {
+        "soort": "Intensief",
+        "waardes": {
+          "minimum": "0.63",
+          "maximum": "1.5",
+          "gemiddeld": "1.1577"
+        }
+      }
+    },
+    "CO2Equivalenten": {
+      "onderwerp": "CO2 equivalenten",
+
+      "Elektriciteit (kg CO2/kWh)": {
+        "type": "Elektriciteit (kg CO2/kWh)",
+
+        "minimum": "0.285",
+        "maximum": "0.5225",
+        "gemiddeld": "0.76"
+      },
+      "Aardgas (kg CO2/kWh)": {
+        "type": "Aardgas (kg CO2/kWh)",
+
+        "minimum": "0.1834",
+        "maximum": "0.1834",
+        "gemiddeld": "0.1834"
+      },
+      "Stookolie (kg CO2/l)": {
+        "type": "Stookolie (kg CO2/l)",
+
+        "minimum": "2.6435",
+        "maximum": "2.6435",
+        "gemiddeld": "2.6435"
+      }
+    },
+    "CO2Captatie": {
+      "onderwerp": "CO2 captatie vegetatie (kg CO2/m²)",
+
+      "Extensief": {
+        "soort": "Extensief",
+
+        "minimum": "0.1466",
+        "maximum": "0.1833",
+        "gemiddeld": "1.15"
+      },
+      "Intensief": {
+        "soort": "Intensief",
+
+        "minimum": "1.65",
+        "maximum": "2.896",
+        "gemiddeld": "2.273"
+      }
+    },
+    "waterophouding": {
+      "onderwerp": "Percentage ophouden (%)",
+
+      "Extensief": {
+        "soort": "Extensief",
+
+        "minimum": "40",
+        "maximum": "70",
+        "gemiddeld": "59"
+      },
+      "Intensief": {
+        "soort": "Intensief",
+
+        "minimum": "75",
+        "maximum": "100",
+        "gemiddeld": "88"
+      }
+    },
+    "fijnstofCaptatie": {
+      "onderwerp": "Jaarlijkse fijn stof captatie (g fijn stof/m².jaar)",
+
+      "Extensief": {
+        "soort": "Extensief",
+
+        "minimum": "0.15",
+        "maximum": 5,
+        "gemiddeld": "1.5587"
+      },
+      "Intensief": {
+        "soort": "Intensief",
+
+        "minimum": "2.16",
+        "maximum": "9.21",
+        "gemiddeld": "6.29"
+      }
+    },
+    "S02Captatie": {
+      "onderwerp": "Jaarlijkse SO2 captatie (g SO2/m².jaar)",
+
+      "groendak": {
+        "soort": "groendak",
+
+        "minimum": "0.1",
+        "maximum": "1.01",
+        "gemiddeld": "0.6371"
+      }
+    },
+    "03Captatie": {
+      "onderwerp": "Jaarlijkse O3 captatie (g O3/m².jaar)",
+
+      "groendak": {
+        "soort": "groendak",
+
+        "minimum": "1.2",
+        "maximum": "7.17",
+        "gemiddeld": "4.11"
+      }
+    },
+    "kostprijsPollutie": {
+      "onderwerp": "Kostprijs pollutie (€/g)",
+
+      "fijnstof": {
+        "soort": "fijnstof",
+
+        "minimum": "0.003098072",
+        "maximum": "0.405",
+        "gemiddeld": "0.167699357"
+      },
+      "NO2": {
+        "soort": "NO2",
+
+        "minimum": "0.004639011",
+        "maximum": "0.004639011",
+        "gemiddeld": "0.004639011"
+      },
+      "SO2": {
+        "soort": "SO2",
+
+        "minimum": "0.001132794",
+        "maximum": "0.001132794",
+        "gemiddeld": "0.001132794"
+      },
+      "OZON": {
+        "soort": "OZON",
+
+        "minimum": "0.004641061",
+        "maximum": "0.004641061",
+        "gemiddeld": "0.004641061"
+      }
+    },
+    "kostHuisbezoek": {
+      "onderwerp": "Kostprijs per patient",
+
+      "minimum": "775",
+      "maximum": "821.5",
+      "gemiddeld": "868"
+    },
+    "arbeidskost": {
+      "onderwerp": "Arbeidskost per zieke werknemer per jaar (€/patiënt)",
+
+      "minimum": "69456",
+      "maximum": "76092",
+      "gemiddeld": "72774"
+    },
+    "biodiversiteitswaarden": {
+      "onderwerp": "Biodiversiteitswaarden",
+
+      "Gewoon dak": {
+        "type": "Gewoon dak",
+
+        "minimum": "0",
+        "maximum": "0",
+        "gemiddeld": "0"
+      },
+      "Extensief groendak": {
+        "type": "Extensief groendak",
+
+        "minimum": "0",
+        "maximum": "10",
+        "gemiddeld": "5"
+      },
+      "Intensief groendak": {
+        "type": "Intensief groendak",
+
+        "minimum": "20",
+        "maximum": "40",
+        "gemiddeld": "30"
+      },
+      "Niet-grondgebonden gevelgroen": {
+        "type": "Niet-grondgebonden gevelgroen",
+
+        "minimum": "0",
+        "maximum": "10",
+        "gemiddeld": "10"
+      },
+      "Grondgebonden gevelgroen": {
+        "type": "Grondgebonden gevelgroen",
+
+        "minimum": "10",
+        "maximum": "20",
+        "gemiddeld": "15"
+      }
+    },
+    "kostenGewoonDak": {
+      "onderwerp": "Kosten gewoon dak",
+
+      "Investeringskost": {
+        "type": "Investeringskost",
+
+        "minimum": "15",
+        "maximum": "15",
+        "gemiddeld": "15"
+      },
+      "Onderhoudskost": {
+        "type": "Onderhoudskost",
+
+        "minimum": "0.58",
+        "maximum": "0.58",
+        "gemiddeld": "0.58"
+      },
+      "Levensduur": {
+        "type": "Levensduur",
+
+        "minimum": "20",
+        "maximum": "20",
+        "gemiddeld": "20"
+      }
+    }
+  }
+}
